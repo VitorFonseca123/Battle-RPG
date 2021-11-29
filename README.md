@@ -8,3 +8,11 @@ Tela inicial
 
 Exemplo de magia utilizada, onde existe uma pequena porcentagem de deixar o inimigo atordoado de 1 a 3 turnos
 ![magia](imgs/magia.png)
+
+
+Exemplo de ataque falho
+![atk](imgs/atk.png)
+
+
+Exemplo de dodge
+![dodge](imgs/dodge.png)
