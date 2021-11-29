@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JRPG</title>
+    <link rel="stylesheet" type="text/css" href="../css/css.css"   />
+    <link rel="stylesheet" type="text/css" href="cssRPG.css"   />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="imagem/png" href="../imgs/L.png" />
+    <script type="text/javascript" src="../js/js.js">
+    
+    </script>
+    <script type="text/javascript" src="../js/novo.js"></script>
+    
+  
+    
+
+</head>
+  <body class="body">
+    <br><br>
+   
+      <center>
+         
+        <div class="number" >
+            ?
+           
+      </div>
+      <!--Tela onde acontece as coisas-->
+
+      <div class="telinha" id='tela'>
+        <div class="container" id='hidden'>  
+      </div>
+      <div class="container2" id='hidden2'> 
+        <div class='ganhou' id='ganhou'></div> 
+        
+      </div>
+      
+          <div id="total">
+            <div id="vidaIN">
+                
+            </div>
+          </div>
+          <div id="totalHERO">
+            <div id="vidaHERO">
+                
+            </div>
+          </div>
+          
+          
+      <!--Caixa de ações-->
+      <div class="caixa">
+        <div class="c2" id="att" onclick="sword()">
+          <p class="letrin">Sword</p>
+          
+        </div>
+        <div class="c2" id="mage" onclick="magic()">
+          <p class="letrin">Magic</p>
+          
+        </div>
+        <div class="c2" id="heal" onclick="heal()">
+          <p class="letrin">Heal</p>
+        </div>
+        <div class="c2" id="dodge" onclick="dodge()">
+         <p class="letrin">Dodge</p> 
+        </div>
+    </div>
+
+    <!--Caixa de diálogo-->
+    <div class="dialogo" id="dialogo">
+
+    </div>
+        </center>
+        <div class="posicao">
+          <!--
+          <p >
+            🎉 
+            <script>
+               now = new Date
+                document.write (now.getDate() + "/" + (now.getMonth()+1) + "/" + now.getFullYear() )
+            
+            </script>
+            🎉   
+                 
+          </p>
+          -->  
+        </div>
+        <script type="text/javascript" src="jsRPG.js"></script>
+  </body>
+</html>

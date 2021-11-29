@@ -1,0 +1,71 @@
+.body{
+    background-color: #808080 ;
+   
+        overflow: hidden;
+    
+}
+.telinha{
+    border: solid 5px;
+    border-color:black;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.botao{
+    
+    width: 158px;
+    height:380px;
+    position: absolute;
+    top: 180px;
+    left: 591px;
+}
+.number{
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+    font-family:  Trattatello, fantasy;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
+}
+.letraescondida{
+    color:gold;
+    position: absolute;
+    
+}
+.frasebonita{
+    position: absolute;
+    font-size: 24px;
+    
+    width: 350px;
+    text-align: justify;
+    top: 100px;
+    left: 955px;
+    font-family: Trattatello, fantasy;
+}
+.posicao{
+    position: absolute;
+    top:615px;
+    
+}
+.container {
+    
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:24px;
+}
+.esconder{
+    display:none;
+}
+.container2 {
+    
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:24px;
+}
+
