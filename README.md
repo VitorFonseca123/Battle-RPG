@@ -11,7 +11,7 @@ Exemplo de magia utilizada, onde existe uma pequena porcentagem de deixar o inim
 
 
 Exemplo de ataque falho
-![atk](imgs/atk.png)
+![atk](imgs/Atk.png)
 
 
 Exemplo de dodge
